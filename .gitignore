@@ -1,0 +1,30 @@
+
+# .NET build files
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Publish files
+publish/
+artifacts/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+
+# OS files
+Thumbs.db
+.DS_Store
